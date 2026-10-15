@@ -1,5 +1,14 @@
 # Overview
 
+> **This branch is a fork.** It is upstream
+> [RRethy/vim-illuminate](https://github.com/RRethy/vim-illuminate) plus
+> [PR #253](https://github.com/RRethy/vim-illuminate/pull/253), which reads
+> tree-sitter scopes through
+> [nvim-treesitter-locals](https://github.com/nvim-treesitter/nvim-treesitter-locals)
+> rather than nvim-treesitter's `master` branch, with the tree-sitter provider
+> back in the default providers. Tree-sitter references need Neovim 0.11 or
+> newer and nvim-treesitter-locals, but not nvim-treesitter.
+
 Neovim plugin for automatically highlighting other uses of the word under the cursor using either LSP, Tree-sitter, or regex matching.
 
 https://github.com/user-attachments/assets/fc1487cf-aa19-4238-af23-ab1ac2f5744a
